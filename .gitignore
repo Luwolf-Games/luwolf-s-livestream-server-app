@@ -1,0 +1,8 @@
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local builds if tested here before uploading to Releases
+*.exe
+*.zip
