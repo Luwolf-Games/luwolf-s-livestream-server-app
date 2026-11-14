@@ -1,6 +1,6 @@
 # Luwolf's Livestream Server — Releases
 
-Official public repository for distributing builds and automatic updates for **Luwolf's Livestream Server** (`v1.1.0`).
+Official public repository for distributing builds and automatic updates for **Luwolf's Livestream Server** (`v1.1.1`).
 
 - **Web App / Watch Streams:** [streams.luwolf.top](https://streams.luwolf.top/)
 - **About the Author:** [luwolf.top](https://luwolf.top/)
@@ -14,7 +14,7 @@ Run `LLS-Installer.exe` (requests Administrator elevation automatically). It dow
 ## Repository Layout
 
 - `LLS-Installer.exe`: online installer (bootstrapper). It always downloads and installs the latest contents of `luwolfs-livestream-server/` from this repository.
-- `version.txt`: current published version (`1.1.0`).
+- `version.txt`: current published version (`1.1.1`).
 - `luwolfs-livestream-server/`: latest application files (`luwolf-livestream-server.exe`, `lls-uninstaller.exe`, `LICENSES/`, `README.md`, and `vendor/`).
 
 ## Auto-Update & Manual Update Checks
