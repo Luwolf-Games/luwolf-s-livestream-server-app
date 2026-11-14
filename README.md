@@ -1,18 +1,22 @@
 # Luwolf's Livestream Server — Releases
 
-Official public repository for distributing builds and automatic updates for **Luwolf's Livestream Server**.
+Official public repository for distributing builds and automatic updates for **Luwolf's Livestream Server** (`v1.1.0`).
+
+- **Web App / Watch Streams:** [streams.luwolf.top](https://streams.luwolf.top/)
+- **About the Author:** [luwolf.top](https://luwolf.top/)
 
 ## Download
 
-Download the latest version from the [**Releases**](https://github.com/Luwolfx/luwolfs-livestream-server-app/releases) page:
+- **[Download LLS-Installer.exe (Windows Online Installer)](https://github.com/Luwolf-Games/luwolf-s-livestream-server-app/raw/master/LLS-Installer.exe)**
 
-- **Windows Installer (`LLS-SETUP-X.Y.Z.exe`)**: recommended. Installs the application per user (no administrator privileges required), creates shortcuts, and enables automatic updates on launch.
-- **Portable Build (`LLS-PORTABLE-X.Y.Z.zip`)**: extract the `luwolf-livestream-server/` folder and run `luwolf-livestream-server.exe`.
+Run `LLS-Installer.exe` (requests Administrator elevation automatically). It downloads the latest build from `luwolfs-livestream-server/`, installs it to `C:\Program Files\Luwolf's Livestream Server` (customizable), creates Desktop and Start Menu shortcuts, registers `lls-uninstaller.exe` in Windows Apps & Features, and launches the app.
 
-## Auto-Update
+## Repository Layout
 
-On launch, the application checks the releases in this repository and prompts for an update whenever a newer version is available.
+- `LLS-Installer.exe`: online installer (bootstrapper). It always downloads and installs the latest contents of `luwolfs-livestream-server/` from this repository.
+- `version.txt`: current published version (`1.1.0`).
+- `luwolfs-livestream-server/`: latest application files (`luwolf-livestream-server.exe`, `lls-uninstaller.exe`, `LICENSES/`, `README.md`, and `vendor/`).
 
-## Licenses
+## Auto-Update & Manual Update Checks
 
-Distributed packages bundle **MediaMTX** and **ffmpeg** binaries along with their respective licenses and source code notices in the `LICENSES/` folder.
+On launch, the application checks `version.txt` (and GitHub Releases) in this repository. Whenever a newer version is available, a mandatory update prompt is shown to download and install the latest build automatically. You can also check for updates manually anytime from the Home header or **Settings → About**.

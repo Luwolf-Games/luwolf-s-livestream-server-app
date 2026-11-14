@@ -1,0 +1,12 @@
+ffmpeg n9.0.2-17-g2a571b6068 (BtbN/FFmpeg-Builds autobuild-2026-09-30-13-08, win64-gpl-9.0)
+Licença: GPL-3.0-or-later (ffmpeg-LICENSE.txt ao lado deste arquivo).
+
+O ffmpeg.exe em vendor/ffmpeg/ é o build estático GPL do projeto
+BtbN/FFmpeg-Builds, redistribuído sem modificação. O código-fonte
+correspondente está em:
+  FFmpeg:              https://github.com/FFmpeg/FFmpeg/tree/2a571b606854520cf89804d8030c8b328e621689
+  Scripts do build:    https://github.com/BtbN/FFmpeg-Builds/tree/6c9aec5fc9a72ec3abedd1fa84db141fa18cf52b
+    (scripts.d/ fixa a versão e a origem de cada biblioteca: libx264,
+    libopus, SVT-AV1, ffnvcodec e as demais)
+  Arquivo distribuído: https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-09-30-13-08/ffmpeg-n9.0.2-17-g2a571b6068-win64-gpl-9.0.zip
+  SHA-256:             a0e45723c72141975f51d8666302e614711745f3102b704ca3f82c897a58d278
